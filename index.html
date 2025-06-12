@@ -16,6 +16,11 @@
       text-align: center;
       color: #00ff99;
     }
+    h2.section-title {
+      color: #00ffcc;
+      border-bottom: 1px solid #00ff99;
+      padding-bottom: 5px;
+    }
     .game-offer {
       background-color: #1e1e1e;
       border-radius: 10px;
@@ -23,7 +28,7 @@
       margin-bottom: 20px;
       box-shadow: 0 0 10px rgba(0, 255, 153, 0.2);
     }
-    .game-offer h2 {
+    .game-offer h3 {
       color: #00ffcc;
     }
     .buttons a {
@@ -42,32 +47,69 @@
     del {
       color: #999;
     }
+    .section {
+      margin-top: 40px;
+    }
   </style>
 </head>
 <body>
   <h1>🔥 Today's Top Gaming Deals</h1>
 
-  <div class="game-offer">
-    <h2>Elden Ring</h2>
-    <p>🖥️ PC - <strong>$39.99</strong> <del>$59.99</del></p>
-    <p>🎮 Xbox - <strong>$29.99</strong> <del>$59.99</del></p>
-    <p>🎮 PlayStation - <strong>$34.99</strong> <del>$69.99</del></p>
-    <div class="buttons">
-      <a href="#">🖥️ Buy for PC</a>
-      <a href="#">🎮 Buy for Xbox</a>
-      <a href="#">🎮 Buy for PlayStation</a>
+  <div class="section">
+    <h2 class="section-title">🖥️ PC Deals</h2>
+    <div class="game-offer">
+      <h3>Elden Ring</h3>
+      <p><strong>$39.99</strong> <del>$59.99</del></p>
+      <div class="buttons">
+        <a href="#">Buy on Fanatical</a>
+        <a href="#">Buy on CDKeys</a>
+        <a href="#">Buy on Humble</a>
+      </div>
+    </div>
+    <div class="game-offer">
+      <h3>Hitman 3</h3>
+      <p><strong>FREE</strong></p>
+      <div class="buttons">
+        <a href="#">Claim on Epic Games</a>
+      </div>
     </div>
   </div>
 
-  <div class="game-offer">
-    <h2>Hitman 3 (Free!)</h2>
-    <p>🖥️ PC - <strong>FREE</strong></p>
-    <p>🎮 Xbox - <strong>FREE</strong></p>
-    <p>🎮 PlayStation - <strong>FREE</strong></p>
-    <div class="buttons">
-      <a href="#">🖥️ Claim on Epic Games</a>
-      <a href="#">🎮 Claim on Xbox</a>
-      <a href="#">🎮 Claim on PlayStation</a>
+  <div class="section">
+    <h2 class="section-title">🎮 Xbox Deals</h2>
+    <div class="game-offer">
+      <h3>Elden Ring</h3>
+      <p><strong>$29.99</strong> <del>$59.99</del></p>
+      <div class="buttons">
+        <a href="#">Buy on CDKeys</a>
+        <a href="#">Buy on Amazon</a>
+      </div>
+    </div>
+    <div class="game-offer">
+      <h3>Hitman 3</h3>
+      <p><strong>FREE</strong></p>
+      <div class="buttons">
+        <a href="#">Claim on Xbox Store</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="section-title">🎮 PlayStation Deals</h2>
+    <div class="game-offer">
+      <h3>Elden Ring</h3>
+      <p><strong>$34.99</strong> <del>$69.99</del></p>
+      <div class="buttons">
+        <a href="#">Buy on Amazon</a>
+        <a href="#">Buy on CDKeys</a>
+      </div>
+    </div>
+    <div class="game-offer">
+      <h3>Hitman 3</h3>
+      <p><strong>FREE</strong></p>
+      <div class="buttons">
+        <a href="#">Claim on PlayStation Store</a>
+      </div>
     </div>
   </div>
 
