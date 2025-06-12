@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gaming Deals - Landing Page</title>
+  <title>Gaming Deals - Main</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -11,107 +11,39 @@
       color: #f5f5f5;
       margin: 0;
       padding: 20px;
+      text-align: center;
     }
     h1 {
-      text-align: center;
       color: #00ff99;
+      margin-bottom: 40px;
     }
-    h2.section-title {
-      color: #00ffcc;
-      border-bottom: 1px solid #00ff99;
-      padding-bottom: 5px;
+    .platforms {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
     }
-    .game-offer {
-      background-color: #1e1e1e;
-      border-radius: 10px;
-      padding: 20px;
-      margin-bottom: 20px;
-      box-shadow: 0 0 10px rgba(0, 255, 153, 0.2);
-    }
-    .game-offer h3 {
-      color: #00ffcc;
-    }
-    .buttons a {
+    .platforms a {
       display: inline-block;
-      margin: 10px 10px 0 0;
-      padding: 10px 15px;
+      padding: 20px 40px;
       background-color: #00ff99;
       color: #121212;
       text-decoration: none;
-      border-radius: 5px;
+      font-size: 20px;
       font-weight: bold;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 255, 153, 0.3);
     }
-    .buttons a:hover {
+    .platforms a:hover {
       background-color: #00cc77;
-    }
-    del {
-      color: #999;
-    }
-    .section {
-      margin-top: 40px;
     }
   </style>
 </head>
 <body>
-  <h1>🔥 Today's Top Gaming Deals</h1>
-
-  <div class="section">
-    <h2 class="section-title">🖥️ PC Deals</h2>
-    <div class="game-offer">
-      <h3>Elden Ring</h3>
-      <p><strong>$39.99</strong> <del>$59.99</del></p>
-      <div class="buttons">
-        <a href="#">Buy on Fanatical</a>
-        <a href="#">Buy on CDKeys</a>
-        <a href="#">Buy on Humble</a>
-      </div>
-    </div>
-    <div class="game-offer">
-      <h3>Hitman 3</h3>
-      <p><strong>FREE</strong></p>
-      <div class="buttons">
-        <a href="#">Claim on Epic Games</a>
-      </div>
-    </div>
+  <h1>🔥 Choose Your Platform</h1>
+  <div class="platforms">
+    <a href="pc.html">🖥️ PC</a>
+    <a href="xbox.html">🎮 Xbox</a>
+    <a href="playstation.html">🎮 PlayStation</a>
   </div>
-
-  <div class="section">
-    <h2 class="section-title">🎮 Xbox Deals</h2>
-    <div class="game-offer">
-      <h3>Elden Ring</h3>
-      <p><strong>$29.99</strong> <del>$59.99</del></p>
-      <div class="buttons">
-        <a href="#">Buy on CDKeys</a>
-        <a href="#">Buy on Amazon</a>
-      </div>
-    </div>
-    <div class="game-offer">
-      <h3>Hitman 3</h3>
-      <p><strong>FREE</strong></p>
-      <div class="buttons">
-        <a href="#">Claim on Xbox Store</a>
-      </div>
-    </div>
-  </div>
-
-  <div class="section">
-    <h2 class="section-title">🎮 PlayStation Deals</h2>
-    <div class="game-offer">
-      <h3>Elden Ring</h3>
-      <p><strong>$34.99</strong> <del>$69.99</del></p>
-      <div class="buttons">
-        <a href="#">Buy on Amazon</a>
-        <a href="#">Buy on CDKeys</a>
-      </div>
-    </div>
-    <div class="game-offer">
-      <h3>Hitman 3</h3>
-      <p><strong>FREE</strong></p>
-      <div class="buttons">
-        <a href="#">Claim on PlayStation Store</a>
-      </div>
-    </div>
-  </div>
-
 </body>
 </html>
